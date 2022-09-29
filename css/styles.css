@@ -1,6 +1,6 @@
 /* Global css */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     background: var(--main-white-color);
     color: var(--main-black-color);
 }
@@ -11,23 +11,20 @@ body {
     --main-white-color: #ffffff;
     --main-black-color: #000000;
 }
-ul { 
+.list { 
     list-style: none; 
-}
-a {
-    text-decoration: none;
 }
 
 /* Header styles */
 .web {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     color: var(--brand-color);
 }
 .studio {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -72,37 +69,34 @@ a {
     background: var(--brand-color);
     color: var(--main-white-color);
     cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 .hero-button:hover,
 .hero-button:focus {
-   background: #188CE8;
-   color: var(--main-white-color);
+    background: #188CE8;
+    color: var(--main-white-color);
     cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* Our priorities */
-.list-priorities{
+.section .list-priorities{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
     color: var(--main-text-color);
 }
-.text-priorities{
-    font-weight: 400;
+.section .text-priorities{
     font-size: 14px;
     line-height: 1.7;
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
 }
 /* Our works */
-.our-work {
+.section .our-work {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     color: var(--main-text-color);
 }
 /* Our team */
-.our-team {
+.section .our-team {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -115,7 +109,6 @@ a {
     color: var(--main-text-color);
 }
 .members-speciality {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     color: var(--secondary-text-color);
@@ -132,18 +125,46 @@ footer {
     color: var(--main-white-color);
 }
 .map-adress {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     color: var(--main-white-color);
 }
 .footer-links {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }
 .footer-links:hover,
 .footer-links:focus {
-    color: var(--brand-color)
+    color: var(--brand-color);
+}
+/* Portfolio */
+.button-list .button-filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #F5F4FA;
+    color: var(--main-text-color);
+    cursor: pointer;
+}
+.button-list .button-filter:hover,
+.button-list .button-filter:focus {
+    background-color: var(--brand-color);
+    color: var(--main-white-color);
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--main-text-color);
+}
+.project-speciality {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--secondary-text-color);
+}
+.footer-links,
+.map-adress {
+    font-style: normal;
 }
