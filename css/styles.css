@@ -14,6 +14,9 @@ body {
 .list { 
     list-style: none; 
 }
+.logo {
+    text-decoration: none;
+}
 
 /* Header styles */
 .web {
@@ -36,6 +39,7 @@ body {
 }
 .site-nav .links {
     color: var(--main-black-color);
+    text-decoration: none;
 }
 .site-nav .links:hover,
 .site-nav .links:focus {
@@ -43,6 +47,7 @@ body {
 }
 .contact-list .contact-links {
     color: var(--secondary-text-color);
+    text-decoration: none;
 }
 .contact-list .contact-links:hover,
 .contact-list .contact-links:focus
@@ -167,4 +172,5 @@ footer {
 .footer-links,
 .map-adress {
     font-style: normal;
+    text-decoration: none;
 }
